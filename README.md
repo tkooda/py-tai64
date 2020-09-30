@@ -33,8 +33,8 @@ http://cr.yp.to/libtai/tai64.html#tai64n
 Module Functions
 ----------------
 
-* `decode_tai64n("400000004a3239350292c294")` — converts a 16 or 24 bytes
+* `decode_tai64n("400000004a3239350292c294")` - converts a 16 or 24 bytes
   long hex TAI64(n) string to a datetime.datetime UTC object
 
-* `utc2tai(datetime.datetime.now())` — converts datetime.datetime UTC
+* `utc2tai(datetime.datetime.now())` - converts datetime.datetime UTC
   object to a datetime.datetime TAI object
